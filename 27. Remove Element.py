@@ -1,0 +1,11 @@
+##Leetcode Soltion link:
+##https://leetcode.com/problems/remove-element/submissions/2167105828
+class Solution(object):
+    def removeElement(self, nums, val):
+        i = 0
+        for x in nums:
+            if x != val:
+                nums[i] = x
+                i +=1
+        return i
+        
